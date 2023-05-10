@@ -1,0 +1,190 @@
+
+:root{
+  --text-primary:#000;
+  --bgPrimary:#fff;
+ --bgSecondary: #F9F9F9;
+ --pink: #0071bd;
+ --light-blue: #e6f7ff;
+ --border: #d9d9d9;
+}
+body{
+  background-color: #0063f9;;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a:hover{
+  color: var(--pink) !important;
+}
+.app{
+  display: flex;
+  overflow: hidden;
+}
+
+// Heading text
+
+p.Main_Title{
+  text-align: center;
+  padding-top: 15px;
+  font-size: 29px;
+  font-weight: 700;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center-div{
+  width: 25%;
+  margin: 0 auto !important;
+}
+
+// Cards Customization css
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+  margin-bottom: 35px;
+  margin-top: 30px;
+}
+.css-46bh2p-MuiCardContent-root {
+  padding: 16px;
+  padding-bottom: 0px !important;
+}
+.css-1rwjz6-MuiCardActions-root {
+  padding-top: 5px !important;
+}
+.css-185gdzj-MuiCardHeader-root {
+  padding-bottom: 0px !important;
+}
+.css-46bh2p-MuiCardContent-root {
+  padding-top: 8px !important;
+  padding-bottom: 0px !important;
+}
+.css-z2eky3-MuiTypography-root {
+  margin-bottom: 10px !important;
+}
+.css-46bh2p-MuiCardContent-root {
+  padding-top: 5px !important;
+}
+.meta_desc, .meta_date, .meta-primary_label{
+  font-size: 14 !important;
+  font-weight: 600 !important;
+}
+.meta_title{
+  font-size: 23px !important;
+  font-weight: 700 !important;
+}
+.meta-value{
+  display: inline-block;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 15px !important;
+  margin-left: 5px;
+}
+.css-1qvr50w-MuiTypography-root {
+  font-weight: 700 !important;
+}
+.meta-rank_value{
+  display: inline-block;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 15px !important;
+  margin-left: 5px;
+}
+.meta-primary_label{
+  color: rgba(0, 0, 0, 0.87)!important;
+  font-size: 16px !important;
+}
+.css-f53tb0-MuiTypography-root {
+  margin-bottom: 5px !important;
+}
+.meta-primary_value{
+  font-size: 16px !important;
+  font-weight: 500 !important; 
+  margin-left: 5px !important;
+}
+.css-83yqq3-MuiTypography-root {
+  margin-bottom: 0px !important;
+  padding-top: 5px !important;
+}
+.css-1qvr50w-MuiTypography-root {
+  font-size: 1.6rem !important;
+}
+
+// sorting button css
+
+select#movies {
+  margin: 0 auto;
+  text-align: center;
+  width: 35%;
+  background-color: #14bdad;
+  color: #fff;
+}
+.css-o69gx8-MuiCardMedia-root {
+  height: 100% !important;
+}
+.meta_desc_txt{
+  margin-bottom: 30px !important;
+}
+.select-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #333;
+  padding: 8px 24px 8px 8px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.select::-ms-expand {
+  display: none;
+}
+.select-btn {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  color: #333;
+  pointer-events: none;
+}
+.select-btn i {
+  font-size: 12px;
+  margin-left: 4px;
+}
+.select:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+.select option {
+  background-color: #fff;
+  color: #333;
+}
+.select option:hover,
+.select option:focus {
+  background-color: #f2f2f2;
+}
+.select option:checked {
+  background-color: #007bff;
+  color: #fff;
+}
+.select option:checked:hover,
+.select option:checked:focus {
+  background-color: #0069d9;
+}
+.select-wrapper {
+  text-align: center;
+  margin-top: 16px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+.select {
+  text-align: center;
+  padding: 10px;
+}
